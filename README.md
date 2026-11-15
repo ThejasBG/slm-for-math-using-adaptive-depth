@@ -84,8 +84,7 @@ Each subject folder contains `train-00000-of-00001.parquet` and `test-00000-of-0
 
 **Hendrycks MATH** (included): 7 subjects, 7,500 train and 5,000 test problems. The loader reads the first column as the question and the last column as the worked solution. The notebook moves 4,000 of the 5,000 test problems into training and keeps 1,000 as the final test set.
 
-**Big Math corpus** (not included, ~520K examples): a JSONL file expected at
-
+**Big Math corpus** (not included, ~520K examples): the [Large-Scale Math Reasoning Dataset (520K)](https://www.kaggle.com/datasets/dineshkumar0705/large-scale-math-reasoning-dataset-520k) on Kaggle by `dineshkumar0705`. Download it from Kaggle and place the JSONL file at
 ```
 big_math/datasetv2.jsonl/dataset.jsonl
 ```
